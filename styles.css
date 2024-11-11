@@ -14,7 +14,11 @@ header {
     
 }
 
-
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
 /* section one flex grow and shrink */
 
 .section-one {
@@ -90,4 +94,12 @@ iframe {
 
 }
 
+ul{
+    list-style-type: none;
+    padding: 5px;
+}
 
+.container-navigation {
+    display: flex;
+    flex-wrap: wrap;
+}
