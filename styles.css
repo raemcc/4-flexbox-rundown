@@ -72,6 +72,11 @@ h1{
 .section-three {
     background-color: lightcoral;
     height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -86,8 +91,21 @@ iframe {
 .section-four {
     background-color: darkslateblue;
     height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     
 }
+
+figcaption{
+    text-align: center;
+    color: white;
+    padding: 10px
+}
+
 
 /* section 5 media items */
 
