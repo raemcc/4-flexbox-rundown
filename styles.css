@@ -111,7 +111,6 @@ figcaption{
 
 .section-five {
     background-color: goldenrod;
-    height: 1400px;
 
 }
 
@@ -155,4 +154,36 @@ li {
     border: 1px solid limegreen;
     border-radius: 10px;
     background-color: aliceblue;
+}
+button{
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding: 20px;
+    margin: 2px;
+    transition-duration: .4s;
+    /*creates a visual transition
+between when the button is inactive, to
+when a user hovers over the button. */
+}
+
+button:hover {
+    background-color: blueviolet;
+    color: aqua;
+}
+button:active {
+    background-color: lime;
+    box-shadow: 0 5px darkred;
+    transform: translateY(4px)
+}
+
+footer{
+    background-color: rebeccapurple;
+    height: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color: rgb(226, 43, 156);
+    padding: 10px 0px;
 }
