@@ -74,7 +74,7 @@ h1{
     height: 800px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 
@@ -115,6 +115,23 @@ figcaption{
 
 }
 
+
+.media {
+        display: flex;
+    align-items: flex-start;
+  }
+
+  .media .content {
+    flex: 1;
+    padding: 10px;
+  }
+
+
+.content {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+    font-size: 20px;
+}
 ul{
     list-style-type: none;
     padding: 5px;
